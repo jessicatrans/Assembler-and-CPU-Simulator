@@ -1,0 +1,21 @@
+***How to Run in Terminal***
+Compile (Linux terminal, Ubuntu): g++ [cpp file] -o [executable file]
+    EX) g++ fiscas.cpp -o fiscas
+    EX) g++ fiscsim.cpp -o fiscsim
+Command Line Arguments: 
+    ./fiscas <source file> <object file> [-l]
+    EX) ./fiscas t1.s t1.hex
+    ./fiscas <object file> [cycles] [-d]
+    EX) ./fiscsim t1.hex
+
+**Assembly files are used for testing, can be modified
+
+-l: print listening to standard error
+
+-d: print disassembly listing with each cycle
+if cycles are unspecified the CPU will run for 20 cycles
+
+**Output Files**
+- the hex files in this folder are for comparing 
+- when you run fiscas in terminal, it will make a new hex 
+file depending on what the user puts in the command line 
