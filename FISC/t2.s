@@ -6,4 +6,3 @@ start:  not r0 r1
         not r1 r1
 end:    and r3 r1 r1
         bnz end
-
